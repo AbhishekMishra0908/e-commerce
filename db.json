@@ -1,0 +1,116 @@
+{
+
+"Register":[
+
+{
+	"customerid": "1",
+	"username": "abhishek",
+	"firstname": "Abhishek",
+	"lastname": "Mishra",
+	"email": "abhishek@gmail.com",
+	"password": "Abhishek@123",
+	"phoneNumber": "9716345151",
+	"Address": [{
+		"addressid": "1",
+		"city": "noida",
+		"state": "UP",
+		"zipcode": "201301",
+		"country": "India"
+	}]}
+
+],
+
+
+
+"Login":
+ {
+"username" : "abhishek",
+"password" : "Abhishek@123"
+}
+
+,
+"ResetPassword":
+{ 
+"email" : "abhishek@gmail.com",
+"password" : "A123445677"
+}
+,
+"AddProduct" : 
+{
+"product_id" : "1",
+"productName" : "Mobile",
+"productDetails" : "Android phone",
+"Actualprice" : "15000",
+"discountPercentage" : "10",
+"discountedPrice" : "13500",
+"unitInStock" : "1100",
+"image" : "mobile.jpg"
+}
+,
+"updateProduct" :
+{
+"product_id" : "1",
+"productName" : "Mobile",
+"productDetails" : "Android phone",
+"Actualprice" : "15000",
+"discountPercentage" : "10",
+"discountedPrice" : "13500",
+"unitInStock" : "1200",
+"image" : "mobile.jpg"
+
+}
+,
+"AddtoCart":
+{
+"cartItemid" : "1",
+"Cart":[{
+"cartId" : "22"
+}],
+"Product": [{
+"productId": "1"}],
+"price":"13500",
+"Incart" : "N",
+"Quantity" : "1"
+
+},
+"SearchProductList" :
+[
+{
+"product_id" : "1",
+"productName" : "Mobile",
+"productDetails" : "Android phone",
+"Actualprice" : "15000",
+"discountPercentage" : "10",
+"discountedPrice" : "13500",
+"unitInStock" : "1200",
+"image" : "mobile.jpg"
+},
+{
+"product_id" : "2",
+"productName" : "Mobile2",
+"productDetails" : "Android phone",
+"Actualprice" : "10000",
+"discountPercentage" : "10",
+"discountedPrice" : "9000",
+"unitInStock" : "1400",
+"image" : "mobile2.jpg"
+}
+]
+
+,
+"SearchProductByName" : {
+"product_id" : "2",
+"productName" : "Mobile2",
+"productDetails" : "Android phone",
+"Actualprice" : "10000",
+"discountPercentage" : "10",
+"discountedPrice" : "9000",
+"unitInStock" : "1400",
+"image" : "mobile2.jpg"
+}
+,
+"DeletefromCart":
+{
+"cartItemId"  :"1"
+}
+}
